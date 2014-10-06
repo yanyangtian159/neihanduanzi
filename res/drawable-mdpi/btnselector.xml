@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/androidan" xmlns:android1="http://schemas.android.com/apk/res/android">
+     <!-- 定义按钮默认的图片 -->  
+     <item 
+         android1:drawableTop="@drawable/ic_tab_essay_on_night"
+         ></item>
+     <item 
+         android1:drawableTop="@drawable/ic_tab_essay_on_night"></item>
+</selector>

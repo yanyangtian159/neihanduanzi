@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	<TextView 
+	    android:id="@+id/textlist_title"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/_main_tab_item_essay_text"/>
+	<FrameLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="1">
+	     <!-- nei rong -->
+	     <com.handmark.pulltorefresh.library.PullToRefreshListView
+	          android:id="@+id/textlist_listview"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	         />
+	   		
+	    <!-- kuai su gong ju tiao -->
+	    <include 
+	        android:id="@+id/textlist_quick_tools"
+	        layout="@layout/textlist_header_tools"/>
+	    <!-- xin xiao xi -->
+	    <TextView 
+	      	android:id="@+id/textlist_new_notify"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:background="#99000099"
+	        android:text="30条新信息"/>
+	    
+	</FrameLayout>
+</LinearLayout>

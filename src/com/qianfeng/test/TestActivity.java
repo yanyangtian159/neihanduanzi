@@ -35,8 +35,8 @@ public class TestActivity extends Activity implements Response.Listener<String>{
 	private static final int CATEGORY_TEXT = 1;
 	public static final int CATEGORY_IMAGE = 2;
 	private RequestQueue queue;
-	private Button button,button1;
 	private long lastTime=0;
+	private Button button,button1;
 	long groupId=3551461874l;//对应文本段子的Id
 	int offset=0;
 	@Override

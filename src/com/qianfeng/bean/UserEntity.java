@@ -34,4 +34,17 @@ public class UserEntity {
 			this.userUerified=json.getBoolean("user_verified");
 		}
 	}
+	public String getAvatarUrl() {
+		return avatarUrl;
+	}
+	public long getUserId() {
+		return userId;
+	}
+	public String getName() {
+		return name;
+	}
+	public boolean isUserUerified() {
+		return userUerified;
+	}
+	
 }

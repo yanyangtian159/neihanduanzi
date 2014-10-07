@@ -23,11 +23,16 @@
             android:name="com.qianfeng.neihan.MainActivity"
             android:label="@string/title_activity_main"
             android:theme="@android:style/Theme.NoTitleBar" >
-              <intent-filter>
+             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.qianfeng.actiivities.EssayDetialActivity"
+            android:label="@string/title_activity_essay_detial" >
+           
         </activity>
     </application>
 

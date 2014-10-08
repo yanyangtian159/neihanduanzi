@@ -1,5 +1,6 @@
 package com.qianfeng.bean;
 
+import java.io.Serializable;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -9,13 +10,17 @@ import org.json.JSONObject;
 
 import android.util.Log;
 
-public class ImageUrlList {
+public class ImageUrlList implements Serializable{
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 6250518150898481139L;
 	private List<String> largeImageUrls;
 	private String uri;
 	private int width;
 	private int height;
-	public void parseJson(JSONObject json) throws JSONException{
+	public void parseJson(JSONObject json) throws JSONException {
 		largeImageUrls = pathImageUrlList(json);
 		//Log.i("ImageUrlList", "---------------largeImageUrls---"+largeImageUrls.toString());
 		uri = json.getString("uri");

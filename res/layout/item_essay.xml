@@ -77,6 +77,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:button="@drawable/item_digg_bg"
+                android:focusable="false"
                 android:gravity="center"
                 android:text="123" />
         </LinearLayout>
@@ -98,6 +99,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:button="@drawable/item_bury_bg"
+                android:focusable="false"
                 android:gravity="center"
                 android:text="123" />
         </LinearLayout>
@@ -141,6 +143,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@null"
+                android:focusable="false"
                 android:gravity="center"
                 android:src="@drawable/item_share_bg" />
         </LinearLayout>

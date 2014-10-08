@@ -1,9 +1,16 @@
 package com.qianfeng.bean;
 
+import java.io.Serializable;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 
-public class UserEntity {
+public class UserEntity implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -7306183928852447664L;
+
 	
 	private String avatarUrl;//头像网址
 	/**

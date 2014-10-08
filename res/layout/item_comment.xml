@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/comment_profile_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/comment_profile_nick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/comment_profile_image"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/comment_profile_image"
+        android:text="abc" />
+
+    <TextView
+        android:id="@+id/comment_creste_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/comment_profile_nick"
+        android:layout_below="@id/comment_profile_nick"
+        android:layout_marginTop="5dp"
+        android:text="一小时钱" />
+
+    <TextView
+        android:id="@+id/comment_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/comment_profile_nick"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/comment_creste_time"
+        android:background="#F00"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:text="评论内容" />
+
+    <CheckBox
+        android:id="@+id/comment_digg_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/item_digg_bg"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:text="123" />
+
+</RelativeLayout>
